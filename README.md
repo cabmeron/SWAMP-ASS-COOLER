@@ -2,12 +2,12 @@
 
 --------------------------------------------------
 
+*Swamp Cooler State Machine*
 
 - FALL 2022 Embedded Systems (CPE 301) final project
 
 - by: Dillon Dutcher, Luis Ramirez Torres, and Cameron McCoy
 
-*Swamp Cooler State Machine*
 
 
 ----------------------------------------------------

@@ -7,6 +7,8 @@
 
 - by: Dillon Dutcher, Luis Ramirez Torres, and Cameron McCoy
 
+- Swamp Cooler State Machine
+
 
 ----------------------------------------------------
 

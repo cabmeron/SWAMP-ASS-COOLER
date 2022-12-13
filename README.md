@@ -4,7 +4,7 @@
 
 *Swamp Cooler State Machine*
 
-- FALL 2022 Embedded Systems (CPE 301) final project *@ University of Nevada, Reno*
+- FALL 2022 Embedded Systems (CPE 301) final *@ University of Nevada, Reno*
 
 - by: Dillon Dutcher, Luis Ramirez Torres, and Cameron McCoy
 

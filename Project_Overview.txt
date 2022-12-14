@@ -1,0 +1,148 @@
+﻿Design:
+
+
+
+
+https://github.com/cabmeron/SWAMP-ASS-COOLER
+
+
+By Cameron McCoy, Dillon Dutcher, and Luis Ramirez Torres
+
+
+
+
+
+
+
+
+Components:
+
+
+* 1X: LCD 1602 Display
+* 4X: Color Leds (Blue, Yellow, Red, Green)
+* 2X: Potentiometer
+* 1X: Stepper Motor
+* 1X: Fan Blade
+* 1X: Kit motor
+* 1X: DHT11 Temperature / Humidity Sensor
+* 1X: Water Sensor
+* 1X: External Power Supply
+* 3X: Breadboard
+* 1X: Push Button
+* 4X: 1000 Ohm Resistor
+* 1X: 220 Ohm Resistor
+* 1X: Arduino ATmega 2560
+* MANY WIRES, varying length
+
+
+
+
+Tech Stack:
+
+
+* C++, Arduino IDE
+
+
+
+
+Constraints:
+
+
+* Water Level: trigger if water value < 100 (may not be optimal speed)
+* Temperature: vary based on environment (set greater than our testing room ( > 24 C)
+* Needs external power supply for fan / ATmega 2560
+* Fragile components, easily damaged
+* Cannot operate is freezing environments / no water (will not survive on Venus either)
+* Complicated setup for potential client unless deployed with less hardware exposure
+
+
+
+
+
+
+
+
+
+
+Schematic: Fritzing (0.9.10)
+
+
+
+
+  
+
+
+
+Description:
+
+
+        LED’s light up relative to cooler state
+
+
+1. Disabled (yellow)
+2. Idle (green)
+3. Running (blue)
+4. Error (red)
+
+
+
+
+* Gathering temperature and humidity for real-time LCD display
+* Potentiometer controls stepper motor
+* Fan coupled with external power supply
+* Water level Sensor to maintain idle or running states
+* ISR() for register manipulation
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Supplemental Material Links
+
+
+
+
+https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf (ATMEGA 2560 DATA SHEET)
+
+
+
+
+https://github.com/adafruit/DHT-sensor-library (DHT library)
+
+
+https://github.com/arduino-libraries/LiquidCrystal (LCD library)
+
+
+https://github.com/arduino-libraries/Stepper (Stepper Library)
+
+
+
+
+Demonstration:
+
+
+https://www.youtube.com/watch?v=UfBXz0tN9KI&feature=youtu.be

@@ -1,0 +1,26 @@
+
+github:
+
+https://github.com/cabmeron/SWAMP-ASS-COOLER
+
+----------------------------------------------------------------------
+
+Documentation used for build:
+
+https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf (ATMEGA 2560 DATA SHEET)
+
+
+https://github.com/adafruit/DHT-sensor-library (DHT library)
+
+
+https://github.com/arduino-libraries/LiquidCrystal (LCD library)
+
+
+https://github.com/arduino-libraries/Stepper (Stepper Library)
+
+-----------------------------------------------------------------------
+
+Demonstration:
+
+
+https://www.youtube.com/watch?v=UfBXz0tN9KI&feature=youtu.be

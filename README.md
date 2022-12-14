@@ -2,7 +2,7 @@
 
 --------------------------------------------------
 
-*Swamp Cooler State Machine*
+*Swamp Cooler State Machine* (GROUP SAC)
 
 - FALL 2022 Embedded Systems (CPE 301) *@ University of Nevada, Reno*
 
